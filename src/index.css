@@ -11,6 +11,11 @@ body {
 }
 
 .container {
+  background: rgb(161,159,204);
+  background: -moz-linear-gradient(145deg, rgba(161,159,204,1) 0%, rgba(247,171,247,1) 35%, rgba(103,252,238,1) 73%, rgba(0,212,255,1) 100%);
+  background: -webkit-linear-gradient(145deg, rgba(161,159,204,1) 0%, rgba(247,171,247,1) 35%, rgba(103,252,238,1) 73%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(145deg, rgba(161,159,204,1) 0%, rgba(247,171,247,1) 35%, rgba(103,252,238,1) 73%, rgba(0,212,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a19fcc",endColorstr="#00d4ff",GradientType=1);
   max-width: 500px;
   margin: 30px auto;
   overflow: auto;
@@ -55,7 +60,7 @@ body {
 }
 
 .task {
-  background: #f4f4f4;
+  background: #d1f9f9;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
